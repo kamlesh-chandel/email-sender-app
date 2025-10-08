@@ -28,7 +28,7 @@ function App() {
     setMessage("");
     
     try {
-      const res = await fetch("http://localhost:8000/sendEmail", {
+      const res = await fetch("https://email-sender-app-6f1h.onrender.com/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
